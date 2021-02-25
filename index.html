@@ -11,7 +11,7 @@
     <div class="container">
         <form class="calculator" name="calc">
             <input type="text" readonly class="value" name="txt"/>
-            <span class="num" onclick="calc.txt.value = ''">c</span>
+            <span class="num clear" onclick="calc.txt.value = ''">c</span>
             <span class="num" onclick="document.calc.txt.value += '/'">/</span>
             <span class="num" onclick="document.calc.txt.value += '*'">*</span>
             <span class="num" onclick="document.calc.txt.value += '7'">7</span>
@@ -26,7 +26,7 @@
             <span class="num" onclick="document.calc.txt.value += '2'">2</span>
             <span class="num" onclick="document.calc.txt.value += '3'">3</span>
             <span class="num" id="singlezero" onclick="document.calc.txt.value += '0'">0</span>
-            <span class="num" id="doublezero" onclick="document.calc.txt.value += '00'">00</span>
+            <!-- <span class="num" id="doublezero" onclick="document.calc.txt.value += '00'">00</span> -->
             <span class="num" onclick="document.calc.txt.value += '.'">.</span>
             <span class="num" onclick="document.calc.txt.value =eval(calc.txt.value)">=</span>
         </form>
