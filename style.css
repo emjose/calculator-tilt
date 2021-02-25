@@ -102,8 +102,8 @@ body {
 .container .calculator span {
   display: grid;
   place-items: center;
-  width: 81px;
-  height: 76px;
+  width: 75px;
+  height: 75px;
   color: #fff;
   font-weight: 400;
   cursor: pointer;
@@ -123,4 +123,19 @@ body {
   background: #23b9ff;
   color: #fff;
   font-weight: bold;
+}
+
+.container .calculator .clear {
+  grid-column: span 2;
+  width: 150px;
+}
+
+.container .calculator .plus {
+  grid-row: span 2;
+  height: 150px;
+}
+
+.container .calculator .zero {
+  grid-column: span 2;
+  width: 150px;
 }
