@@ -62,7 +62,7 @@ open index.html
 
 <a href="https://emjose.github.io/calculator-tilt/">![Live Site](Assets/inter-live-site.png)</a>  
 
-<a href="https://emjose.github.io/calculator-tilt/">![Under Construction](Assets/019-tilting.gif)</a>
+<a href="https://emjose.github.io/calculator-tilt/">![Live Site](Assets/019-tilting.gif)</a>
 
 #
 
