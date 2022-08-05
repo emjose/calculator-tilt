@@ -49,13 +49,13 @@
 
 #### Git clone and cd into the repo folder:
 
-```
+```console
 git clone git@github.com:emjose/calculator-tilt.git && cd calculator-tilt
 ```
 
 #### Run the command:
 
-```
+```console
 open index.html
 ```
 
