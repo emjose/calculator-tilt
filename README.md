@@ -39,7 +39,10 @@
 -   I looked into three different ways of coding a calculator.
 
 -   I also read great blogs about calculator design and calculator UI.
+
 -   This calculator was made with <a href="https://micku7zu.github.io/vanilla-tilt.js/">Vanilla-tilt.js</a>. See the <a href="https://github.com/emjose/calculator-react/#header">React</a> and <a href="https://github.com/emjose/calculator-vuejs/#header">Vue.js</a> versions.
+
+<br>
 
 #
 
@@ -59,6 +62,8 @@ git clone git@github.com:emjose/calculator-tilt.git && cd calculator-tilt
 open index.html
 ```
 
+<br>
+
 #
 
 <p id="live-site"><p>
@@ -66,6 +71,11 @@ open index.html
 <a href="https://emjose.github.io/calculator-tilt/">![Live Site](https://res.cloudinary.com/dn1e07eul/image/upload/v1659389947/Readme%20Headers/inter-live-site_ngkqcf.png)</a>
 
 <a href="https://emjose.github.io/calculator-tilt/">![Live Site](Assets/019-tilting.gif)</a>
+
+• The **[Tilting Calculator](https://emjose.github.io/calculator-tilt/)** is a [progressive web app](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps).
+
+• The **[Tilting Calculator](https://emjose.github.io/calculator-tilt/)** is keyboard-navigable, and it "tilts" in response to mouse hovers.
+<br>
 
 #
 
@@ -83,10 +93,14 @@ open index.html
 
 -   #### [Vanilla-tilt.js Calculator Tutorial](https://youtu.be/NhcZh8Bwr30)
 
+-   #### [HTML `<input type="button">`](https://www.w3schools.com/tags/att_input_type_button.asp)
+
 -   #### [What I learned designing a calculator UI](https://medium.com/@kmerchant/what-i-learned-designing-a-calculator-ui-9358a3112445)
 -   #### [Calcy | The new-age calculator for 21st-century users](https://uxplanet.org/calcy-the-new-age-calculator-a-design-case-study-11f49559892b)
 
 -   #### [My blog on how I created my Github READMEs](https://emmanueljose.medium.com/readme-a-makeover-story-b9c7be37a6de?sk=7ae6623d365409d875753e4604e42ffd)
+
+<br>
 
 #
 
