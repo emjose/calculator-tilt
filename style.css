@@ -127,8 +127,9 @@ label {
 	height: 4px;
 	grid-column: span 4;
 	color: var(--clear);
-	font-size: 2px;
+	font-size: 16px;
 	text-align: center;
+	user-select: none;
 }
 
 .github-corner:focus .octo-arm,
