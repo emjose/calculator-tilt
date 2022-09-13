@@ -28,6 +28,8 @@
 -   [Resources](#resources)
 -   [Let's Connect!](#lets-connect)
 
+<br>
+
 #
 
 <p id="100days"><p>
@@ -75,6 +77,7 @@ open index.html
 • The **[Tilting Calculator](https://emjose.github.io/calculator-tilt/)** is a [progressive web app](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps).
 
 • The **[Tilting Calculator](https://emjose.github.io/calculator-tilt/)** is keyboard-navigable, and it "tilts" in response to mouse hovers.
+
 <br>
 
 #
