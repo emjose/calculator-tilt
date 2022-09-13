@@ -6,7 +6,16 @@
 	--open-sans: "Open Sans", sans-serif;
 	--glass-color: rgba(255, 255, 255, 0.05);
 	--white: #fff;
+	--black: #000;
+	--clear: rgba(255, 255, 255, 0);
 	--hover-focus: rgba(255, 255, 255, 0.25);
+	--border-1: 1px solid rgba(255, 255, 255, 0.3);
+	--border-2: 1px solid rgba(255, 255, 255, 0.1);
+	--glass-border: 1px solid var(--glass-color);
+	--shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+	--github-fill: var(--white);
+	--github-color: #ff5e52;
+	--github-focus: var(--black);
 }
 
 html {
@@ -38,13 +47,13 @@ body {
 	border-radius: 6px;
 	overflow: hidden;
 	z-index: 10;
-	border-left: 1px solid rgba(255, 255, 255, 0.3);
-	border-top: 1px solid rgba(255, 255, 255, 0.3);
-	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-	border-right: 1px solid rgba(255, 255, 255, 0.1);
+	border-left: var(--border-1);
+	border-top: var(--border-1);
+	border-bottom: var(--border-2);
+	border-right: var(--border-2);
 	-webkit-backdrop-filter: blur(3px);
 	backdrop-filter: blur(0px);
-	box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+	box-shadow: var(--shadow);
 	text-align: center;
 	position: relative;
 }
@@ -65,8 +74,8 @@ body {
 	font-size: 35px;
 	background: transparent;
 	color: var(--white);
-	border-bottom: 1px solid var(--glass-color);
-	border-right: 1px solid var(--glass-color);
+	border-bottom: var(--glass-border);
+	border-right: var(--glass-border);
 }
 
 .num {
@@ -85,9 +94,8 @@ body {
 	cursor: pointer;
 	font-size: 28px;
 	user-select: none;
-	border-bottom: 1px solid var(--glass-color);
-	border-right: 1px solid var(--glass-color);
-	/* transition: 0.5s; */
+	border-bottom: var(--glass-border);
+	border-right: var(--glass-border);
 }
 
 .num:hover,
@@ -99,10 +107,10 @@ body {
 	background: var(--hover-focus);
 }
 
-#num-clear {
-	grid-column: span 2;
+#num-clear,
+#num-zero {
 	width: 150px;
-	background: rgba(255, 255, 255, 0.05);
+	grid-column: span 2;
 }
 
 #num-plus {
@@ -110,25 +118,31 @@ body {
 	height: 150px;
 }
 
-#num-zero {
-	grid-column: span 2;
-	width: 150px;
-}
-
+#num-clear,
 #num-equal {
-	background: rgba(255, 255, 255, 0.05);
+	background: var(--glass-color);
 }
 
 label {
 	height: 4px;
 	grid-column: span 4;
-	color: rgba(255, 255, 255, 0);
+	color: var(--clear);
 	font-size: 2px;
 	text-align: center;
 }
 
+.github-corner:focus .octo-arm,
 .github-corner:hover .octo-arm {
 	animation: octocat-wave 560ms ease-in-out;
+}
+
+.github-corner:focus svg path {
+	fill: var(--github-focus);
+}
+
+.github-corner:focus .octo-arm,
+.github-corner:focus .octo-body {
+	fill: var(--github-color);
 }
 
 @keyframes octocat-wave {
