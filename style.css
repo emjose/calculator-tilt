@@ -4,13 +4,13 @@
 :root {
 	--gradient: linear-gradient(-45deg, #160092, #9803d3, #e945c6, #ff5e52, #ffe552);
 	--open-sans: "Open Sans", sans-serif;
-	--glass-color: rgba(255, 255, 255, 0.05);
 	--white: #fff;
 	--black: #000;
 	--clear: rgba(255, 255, 255, 0);
 	--hover-focus: rgba(255, 255, 255, 0.25);
 	--border-1: 1px solid rgba(255, 255, 255, 0.3);
 	--border-2: 1px solid rgba(255, 255, 255, 0.1);
+	--glass-color: rgba(255, 255, 255, 0.05);
 	--glass-border: 1px solid var(--glass-color);
 	--shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
 	--github-fill: var(--white);
